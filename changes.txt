@@ -64,7 +64,7 @@ The appearance of some items and blocks has changed because the isGui3D no longe
   isGui3D now affects lighting only.
 
 For some reason, not longer copied assets to the run folder:
-C:\Users\TGG\IdeaProjects\MinecraftByExample1-10-2\out\production\MinecraftByExample1-10-2\assets\minecraftbyexample
+C:\Users\TGG\IdeaProjects\MinecraftByExample1-10-2\out\production\MinecraftByExample1-10-2\assets\mineengine
 See FMLClientHandler::addModAsResource()
 
 Addition of left and right hand means the item transforms have changed.

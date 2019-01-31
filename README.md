@@ -86,7 +86,7 @@ If you want more information and explanatory text about the concepts, the follow
         2. Right click on the project, select "Run As" > "Run Configurations..."
         3. Set the main class to "GradleStart"
     8. You should be able to start Minecraft now (using the Run or Debug configuration) and the mod will be loaded.	
-    9. Without an IDE and running from the command line, you can build the project with `gradlew build` and then run it with `gradlew runClient`. In order to load the mod into a production or stand-alone Minecraft, run `gradlew reobf` and copy `build/libs/minecraftbyexample-1.12.2a.jar` into the Minecraft mods directory before starting Minecraft.  Personally, I recommend to use an IDE, it makes coding and debugging a lot easier.  But it's not essential.  
+    9. Without an IDE and running from the command line, you can build the project with `gradlew build` and then run it with `gradlew runClient`. In order to load the mod into a production or stand-alone Minecraft, run `gradlew reobf` and copy `build/libs/mineengine-1.12.2a.jar` into the Minecraft mods directory before starting Minecraft.  Personally, I recommend to use an IDE, it makes coding and debugging a lot easier.  But it's not essential.
 
     
 #### If You're Still Confused
@@ -94,44 +94,44 @@ Head over [here][more_help] if this didn't make sense to you, alternatively [thi
 
 Check out [this video][forge_installation] for more help installing Forge.
 
-[main_classes]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/minecraftbyexample
+[main_classes]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/mineengine
 [greyminecraftcoder]: http://greyminecraftcoder.blogspot.com.au/p/list-of-topics.html
 [forgedocs]:http://mcforge.readthedocs.org/en/latest/
 [wuppy]: http://www.wuppy29.com/minecraft/modding-tutorials/forge-modding-1-8
 [tutorials_forum]: http://www.minecraftforge.net/forum/index.php/board,120.0.html
 [list_of_tutorials]: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/modification-development/2716947-can-we-start-a-thorough-list-of-really-good
 
-[01]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/minecraftbyexample/mbe01_block_simple
-[02]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/minecraftbyexample/mbe02_block_partial
-[03]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/minecraftbyexample/mbe03_block_variants
-[04]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/minecraftbyexample/mbe04_block_dynamic_block_model1
-[05]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/minecraftbyexample/mbe05_block_dynamic_block_model2
-[06]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/minecraftbyexample/mbe06_redstone
-[08]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/minecraftbyexample/mbe08_creative_tab
+[01]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/mineengine/mbe01_block_simple
+[02]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/mineengine/mbe02_block_partial
+[03]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/mineengine/mbe03_block_variants
+[04]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/mineengine/mbe04_block_dynamic_block_model1
+[05]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/mineengine/mbe05_block_dynamic_block_model2
+[06]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/mineengine/mbe06_redstone
+[08]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/mineengine/mbe08_creative_tab
 
-[10]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/minecraftbyexample/mbe10_item_simple
-[11]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/minecraftbyexample/mbe11_item_variants
-[12]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/minecraftbyexample/mbe12_item_nbt_animate
-[13]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/minecraftbyexample/mbe14_item_camera_transforms
-[14]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/minecraftbyexample/mbe14_item_camera_transforms
-[15]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/minecraftbyexample/mbe15_item_dynamic_item_model
+[10]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/mineengine/mbe10_item_simple
+[11]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/mineengine/mbe11_item_variants
+[12]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/mineengine/mbe12_item_nbt_animate
+[13]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/mineengine/mbe14_item_camera_transforms
+[14]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/mineengine/mbe14_item_camera_transforms
+[15]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/mineengine/mbe15_item_dynamic_item_model
 
-[20]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/minecraftbyexample/mbe20_tileentity_data
-[21]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/minecraftbyexample/mbe21_tileentityspecialrenderer
+[20]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/mineengine/mbe20_tileentity_data
+[21]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/mineengine/mbe21_tileentityspecialrenderer
 
-[30]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/minecraftbyexample/mbe30_inventory_basic
-[31]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/minecraftbyexample/mbe31_inventory_furnace
-[35]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/minecraftbyexample/mbe35_recipes
+[30]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/mineengine/mbe30_inventory_basic
+[31]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/mineengine/mbe31_inventory_furnace
+[35]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/mineengine/mbe35_recipes
 
-[40]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/minecraftbyexample/mbe40_hud_overlay
+[40]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/mineengine/mbe40_hud_overlay
 
-[50]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/minecraftbyexample/mbe50_particle
+[50]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/mineengine/mbe50_particle
 
-[60]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/minecraftbyexample/mbe60_network_messages
+[60]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/mineengine/mbe60_network_messages
 
-[70]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/minecraftbyexample/mbe70_configuration
+[70]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/mineengine/mbe70_configuration
 
-[75]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/minecraftbyexample/mbe75_testing_framework
+[75]: https://github.com/TheGreyGhost/MinecraftByExample/tree/master/src/main/java/mineengine/mbe75_testing_framework
 
 [more_help]: http://www.minecraftforge.net/forum/index.php?topic=21354.msg108332#msg108332
 [forge_installation]: http://youtu.be/8VEdtQLuLO0

@@ -1,8 +1,8 @@
 [
 {
-  "modid": "minecraftbyexample",
-  "name": "Minecraft By Example",
-  "description": "Minecraft By Example",
+  "modid": "mineengine",
+  "name": "Minecraft Forge SandBox Engine",
+  "description": "Not Provided jet",
   "version": "1.12.2a",
   "mcversion": "${mcversion}",
   "url": "",

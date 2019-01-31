@@ -90,7 +90,7 @@ B) If you want to install it and compile it, the basic steps for beginners are:
     b) Right click on the project, select "Run As" > "Run Configurations..."
     c) Set the main class to "GradleStart"
 6) You should be able to start Minecraft now (using the Run or Debug configuration) and the mod will be loaded.
-7) If you aren't using an IDE you can build the project with gradlew build and then run it with gradlew runClient. In order to load the mod into a production or stand-alone Minecraft, run gradlew reobf and copy build/libs/minecraftbyexample-1.12.2a.jar into the Minecraft mods directory before starting Minecraft.  Personally, I recommend to use an IDE, it makes coding and debugging a lot easier.  But it's not essential.
+7) If you aren't using an IDE you can build the project with gradlew build and then run it with gradlew runClient. In order to load the mod into a production or stand-alone Minecraft, run gradlew reobf and copy build/libs/mineengine-1.12.2a.jar into the Minecraft mods directory before starting Minecraft.  Personally, I recommend to use an IDE, it makes coding and debugging a lot easier.  But it's not essential.
 
 For some extra help if this doesn't make sense to you
 http://www.minecraftforge.net/forum/index.php?topic=21354.msg108332#msg108332

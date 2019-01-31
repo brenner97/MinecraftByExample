@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "all": "mineEngine:blocks/SimpleStonePNG",
+        "particle": "blocks/lapis_block"
+    }
+}
